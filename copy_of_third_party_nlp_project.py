@@ -9,7 +9,7 @@ Original file is located at
 
 # AI Third Party Risk Management project questionnaire for IT 745
 # Install SteramLit
-!pip install streamlit
+
 
 import streamlit as st
 import pandas as pd
