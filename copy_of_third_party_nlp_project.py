@@ -165,4 +165,4 @@ st.markdown("---")
 st.caption("Developed as part of AI-Driven Cybersecurity Research on Third-Party Risk Management © 2025")
 
 
-!streamlit run ai_tprm_dashboard_ai.py & npx localtunnel --port 8501
+
