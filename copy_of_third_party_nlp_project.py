@@ -164,8 +164,5 @@ if st.button("Run AI-Driven Assessment"):
 st.markdown("---")
 st.caption("Developed as part of AI-Driven Cybersecurity Research on Third-Party Risk Management © 2025")
 
-!npm install localtunnel
-
-!curl https://loca.lt/mytunnelpassword
 
 !streamlit run ai_tprm_dashboard_ai.py & npx localtunnel --port 8501
