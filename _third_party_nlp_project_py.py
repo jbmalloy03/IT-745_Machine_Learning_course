@@ -352,6 +352,6 @@ st.caption("Developed as part of AI-Driven Cybersecurity Research on Third-Party
 
 
 
-curl https://loca.lt/mytunnelpassword
+
 
 python -m streamlit run ai_tprm_dashboard_ai.py & npx localtunnel --port 8501
