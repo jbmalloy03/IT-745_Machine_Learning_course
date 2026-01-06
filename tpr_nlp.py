@@ -12,8 +12,16 @@ Interactive Streamlit dashboard that performs third-party vendor
 risk assessment using questionnaires, NLP similarity scoring.
 "
 """
-!pip install streamlit scikit-learn python-docx pypdf2
+import subprocess
+import sys
 
+# List of packages to install
+packages =['streamlit', 'scikit-learn', 'python-docx', 'pypdf2']
+
+#Implement pip as a subprocess
+subprocess.check_call([sys.executable, '-m, 'pip', 'install', *packages])
+
+#import libraries                       
 
 import streamlit as st
 import pandas as pd
