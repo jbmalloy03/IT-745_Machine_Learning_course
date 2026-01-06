@@ -8,7 +8,7 @@ Original file is located at
 # AI Third Party Risk Management project questionnaire for IT 745
 # Install SteramLit
 
-pip install --upgrade scikit-learn
+!pip install --upgrade scikit-learn
 import streamlit as st
 import pandas as pd
 import json
