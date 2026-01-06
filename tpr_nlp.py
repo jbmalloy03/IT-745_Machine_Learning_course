@@ -9,8 +9,7 @@ Original file is located at
 AI-Driven Third-Party Risk Assessment Dashboard (Enhanced)
 ----------------------------------------------------------
 Interactive Streamlit dashboard that performs third-party vendor
-risk assessment using questionnaires, NLP similarity scoring,
-and Azure OpenAI LLM-based advisory analysis.
+risk assessment using questionnaires, NLP similarity scoring.
 "
 """
 !pip install streamlit scikit-learn python-docx pypdf2
