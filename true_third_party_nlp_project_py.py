@@ -7,17 +7,17 @@ Original file is located at
     https://colab.research.google.com/drive/1IimyezKA4rxYUc7u2JlZVSIMVBjR5joy
 """
 
-# import streamlit as st
-# import pandas as pd
-# import json
-# import numpy as np
-# import os
-# from datetime import datetime
-# from sklearn.feature_extraction.text import TfidfVectorizer
-# from sklearn.metrics.pairwise import cosine_similarity
-# import docx
-# import PyPDF2
-# 
+ import streamlit as st
+ import pandas as pd
+ import json
+ import numpy as np
+ import os
+ from datetime import datetime
+ from sklearn.feature_extraction.text import TfidfVectorizer
+ from sklearn.metrics.pairwise import cosine_similarity
+ import docx
+ import PyPDF2
+
 # # =========================================================
 # # Questionnaire Configuration
 # # =========================================================
