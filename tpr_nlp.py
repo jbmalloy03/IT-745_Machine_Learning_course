@@ -14,7 +14,7 @@ and Azure OpenAI LLM-based advisory analysis.
 "
 """
 
-python -m pip install streamlit openai python-docx pypdf2
+python -m pip install streamlit python-docx pypdf2
 
 import streamlit as st
 import pandas as pd
