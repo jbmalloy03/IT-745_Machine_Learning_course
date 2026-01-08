@@ -1,3 +1,7 @@
-packages =['streamlit', 'scikit-learn', 'python-docx', 'pypdf2']
+!pip install streamlit
+!pip install scikit-learn
+!pip install python-docx
+!pip install pypdf2
+
 
 
