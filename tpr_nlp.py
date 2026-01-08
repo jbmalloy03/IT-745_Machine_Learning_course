@@ -14,11 +14,6 @@ risk assessment using questionnaires, NLP similarity scoring.
 import subprocess
 import sys
 
-# List of packages to install
-packages =['streamlit', 'scikit-learn', 'python-docx', 'pypdf2']
-
-#Implement pip as a subprocess
-#list of packages are listed in requirements.txt file
 #import libraries                       
 
 import streamlit as st
