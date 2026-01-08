@@ -44,9 +44,9 @@ questions = {
     "q10": {"text": "Does the vendor provide employee cybersecurity training?", "weight": 5}
 }
 
-"""# Control Corpus (Baseline for NLP)
+# Control Corpus (Baseline for NLP)
 
-"""
+
 
 CONTROL_CORPUS = [
     "access control policy least privilege authentication authorization",
@@ -56,7 +56,7 @@ CONTROL_CORPUS = [
     "vendor risk governance oversight compliance monitoring"
 ]
 
-"""#Helper Functions"""
+#Helper Functions
 
 def extract_policy_text(uploaded_file):
     text = ""
