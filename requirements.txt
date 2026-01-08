@@ -1,2 +1,3 @@
-packages =['scikit-learn', 'python-docx', 'pypdf2']
+packages =['streamlit', 'scikit-learn', 'python-docx', 'pypdf2']
+
 
