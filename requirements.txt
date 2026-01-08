@@ -1,7 +1,8 @@
-!pip install streamlit
-!pip install scikit-learn
-!pip install python-docx
-!pip install pypdf2
+-c pip install streamlit
+-c pip install scikit-learn
+-c pip install python-docx
+-c pip install pypdf2
+
 
 
 
