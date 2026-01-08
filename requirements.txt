@@ -1,7 +1,6 @@
--c pip install streamlit
--c pip install scikit-learn
--c pip install python-docx
--c pip install pypdf2
+pip install -- upgrade streamlit, scikit-learn, python-docx, pypdf2
+
+
 
 
 
