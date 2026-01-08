@@ -12,7 +12,7 @@ risk assessment using questionnaires, NLP similarity scoring.
 "
 """
 # Install requirements
-pip install -r /mount/src/it-745J_machine_learning_course/requirements.txt
+pip install -r /mount/src/it-745machinelearningcourse/requirements.txt
 
 #import libraries                       
 
