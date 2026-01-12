@@ -26,9 +26,22 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import docx
 import PyPDF2
+from openai import AzureOpenAI
 
 
+# =========================================================
+# Azure OpenAI Configuration
+# =========================================================
+client = AzureOpenAI(
+    api_key=os.getenv("AZURE_OPENAI_API_KEY"),
+    api_version="2024-02-01",
+    azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT")
+)
+DEPLOYMENT_NAME = os.getenv("AZURE_OPENAI_DEPLOYMENT")
 
+# =========================================================
+# Questionnaire Configuration
+# =========================================================
 
 questions = {
     "q1": {"text": "Does the vendor have a formal cybersecurity policy?", "weight": 10},
@@ -43,8 +56,9 @@ questions = {
     "q10": {"text": "Does the vendor provide employee cybersecurity training?", "weight": 5}
 }
 
-
-
+# =========================================================
+# Control Corpus (Baseline for NLP)
+# =========================================================
 
 CONTROL_CORPUS = [
     "access control policy least privilege authentication authorization",
@@ -54,8 +68,9 @@ CONTROL_CORPUS = [
     "vendor risk governance oversight compliance monitoring"
 ]
 
-
-
+# =========================================================
+# Helper Functions
+# =========================================================
 def extract_policy_text(uploaded_file):
     text = ""
     if uploaded_file.type == "application/pdf":
