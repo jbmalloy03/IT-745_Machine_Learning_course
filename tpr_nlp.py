@@ -26,18 +26,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import docx
 import PyPDF2
-from openai import AzureOpenAI
 
-
-# =========================================================
-# Azure OpenAI Configuration
-# =========================================================
-client = AzureOpenAI(
-    api_key=os.getenv("AZURE_OPENAI_API_KEY"),
-    api_version="2024-02-01",
-    azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT")
-)
-DEPLOYMENT_NAME = os.getenv("AZURE_OPENAI_DEPLOYMENT")
 
 # =========================================================
 # Questionnaire Configuration
